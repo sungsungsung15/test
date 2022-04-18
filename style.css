@@ -6,6 +6,7 @@ body,html{
 .logo {
     height: 70px;
     float: left;
+    padding-left: 60px;
 
 }
 
@@ -18,8 +19,8 @@ body,html{
 .topnav{
     background-color: #352d2f;
     height: 70px;
-    width: 100%;
     text-align: right;
+    padding-right: 5em;
 }
 .topnav ul {
     padding: 0px;
@@ -46,31 +47,70 @@ body,html{
 }
 
 .hero-img{
-    background-image: url("bg.jpeg");
+    background: rgba(0, 0, 0, 0.514) url("bg.jpeg");
+    background-blend-mode: darken;
     background-position: top ;
     height: 70%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     
-
 }
+
 .hero-text h1{
     margin-top: 0px;
+    margin-bottom: 0px;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding-top: 10em;
+   
    
 
 }
 .hero-text p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    
 
 }
 .hero-text{
-    width: 10;
-    text-align: center;
-    vertical-align: middle;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 35%;
+    color: antiquewhite;
+
     
+}
+.hero-text button{
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 16px 8px 16px;
+    letter-spacing: 1px;
+
+    
+
+}
+.hero-button{
+    display: flex;
+    flex-direction: row;
+    
+}
+.primary-button{
+    color: antiquewhite;
+    background-color: rgb(37, 30, 23);
+    border: 1px solid rgb(37, 30, 23);
+    margin-right: 8px;
+}
+.secondary-button{
+    background: none;
+    color: antiquewhite;
+    border-color: rgb(37, 30, 23);
+   
 }
