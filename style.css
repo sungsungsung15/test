@@ -133,10 +133,7 @@ body,html{
     justify-content: center;
     
 }
-.img-para{
-    display: flex;
-    flex-direction: row;
-}
+
 .paragraph{
     width: 500px; 
     line-height: 23px;
@@ -182,11 +179,72 @@ body,html{
     margin-top: -10px;
     font-size: 12px;
 }
-.third img{
-    background-color: black;
-    background-blend-mode: darken;
-    height: 50%;
+.third{
+    background: rgba(0, 0, 0, 0.658) url(third.jpeg);
     width: 100%;
-    background-repeat: no-repeat;
+    height: 70%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-position: top ;
     background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    margin-top:0%;
+    padding-top: 100px;
+}
+.sum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.summary-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 35px;
+
+}
+.summary-title-1{
+    color: rgb(236, 240, 1);
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.sum p{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    line-height: 23px;
+    text-align: justify;
+    
+}
+.second-figures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+.second-figures p{
+    color: #bebc1e;
+}
+.wrap-2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+   
+}
+.icons {
+    padding-left: 20px;
+    padding-right: 20px;
 }
