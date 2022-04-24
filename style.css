@@ -124,8 +124,7 @@ body,html{
 }
 .second-all{
     padding-top: 100px;
-    
-    
+      
 }
 .img-para{
     display: flex;
@@ -260,4 +259,49 @@ body,html{
 .icon{
     padding-left: 15px;
     padding-right:15px;
+}
+.fourth{
+    background-color: #417248;
+    width: 100%;
+    height: 500px;
+    color: azure;
+    align-items: center;
+}
+.fourth-all{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.imgbox img{
+    height: 300px;
+    margin-top: 35px;
+    width: auto;
+    padding-right: 35px;
+}
+.txt-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.and{
+    color: #f3f02f;
+}
+.txt-box{
+    
+}
+/*.third_button-1{
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 16px 8px 16px;
+    letter-spacing: 1px;
+}*/
+.third-button{
+    background: none;
+    color: antiquewhite;
+    border-color: antiquewhite ;
 }
